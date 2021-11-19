@@ -1,0 +1,41 @@
+#dictionary {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+#me {
+    width: 40%;
+    height: auto;
+    float: right;
+    padding-left: 8%;
+}
+
+#a_container {
+    padding-top: 5%;
+    display: flex;
+}
+
+#story {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+#facts {
+    width: 50%;
+    float: right;
+}
+
+#sparkle {
+    width: 10%;
+    padding-left: 8%;
+}
+
+p.p {
+    display: inline;
+}
+
+#s_container {
+    padding-bottom: 50%;
+}

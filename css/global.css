@@ -10,7 +10,7 @@ body{
     margin-right: 17%;
 }
 
-h1, h3, a {
+h1, h3, a, ul {
     font-family: 'Montserrat';
 }
 
@@ -40,6 +40,10 @@ p {
     font-size: 1.4vw;
 }
 
+ul {
+    font-size: 1.3vw;
+}
+
 img.logo {
     width: 9%;
     height: 9%;
@@ -49,7 +53,7 @@ img.logo {
 }
 
 a {
-    font-size: 20;
+    font-size: 1.5vw;
     text-decoration: none;
 }
 
@@ -89,13 +93,39 @@ a {
 .i {
     font-style: italic;
     font-weight: 350;
+    color: #808080;
 }
 
 .g {
-    color: 808080;
+    color: #808080;
 }
 
 .return {
     position: relative;
+    left: 0;
     bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    background-color: black;
+    cursor:pointer;
+    border: none;
+    width: 10vw;
+    height: 7vh;
+    border-radius: 40px 0px 40px 40px;
+    color: white;
+    font-family: 'Montserrat';
+}
+
+.left {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.right {
+    width: 40%;
+    float: right;
 }

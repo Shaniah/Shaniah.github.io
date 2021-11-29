@@ -8,5 +8,23 @@ h2 {
 }
 
 #content {
-    padding-bottom: 50%;
+    padding-bottom: 10%;
+}
+
+h3 {
+    margin-bottom: 0;
+    font-size: 2vw;
+}
+
+p.o {
+    margin-top: 1%;
+    font-size: 1.3vw;
+}
+
+#portfolio {
+    padding-top: 5%;
+}
+
+.contact {
+    padding-top: 55%;
 }

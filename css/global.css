@@ -119,6 +119,10 @@ a {
     font-family: 'Montserrat';
 }
 
+.button:hover {
+    background-color: #867CF9;
+}
+
 .left {
     width: 50%;
     height: auto;

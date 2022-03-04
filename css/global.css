@@ -1,13 +1,23 @@
 html, body{
     height: 100%;
     width: auto;
+    
+}
+
+body{ 
+    padding: 0; 
+    margin: 0; 
 }
 
 /*
     global fonts
 */
 
-h1, h2, h3, h4, a, p {
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, a, p {
     font-family: 'Montserrat';
 }
 
@@ -29,18 +39,18 @@ h3 {
 }
 
 h4{
-    font-weight: bolder;
+    font-weight: 500;
     font-size: 50px;
 }
 
 h5{
     font-weight: lighter;
     font-size: 30px;
-    color: #808080;
+    color: #ACACAC;
 }
 
 p {
-    font-size: 25;
+    font-size: 23px;
     color: #4B4B4B;
 }
 

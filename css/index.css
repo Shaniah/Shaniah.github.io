@@ -1,30 +1,38 @@
-h2 {
-    text-align: center;
-    padding-top: 7%;
+a {
+    text-decoration: none;
 }
 
-#p1 {
-    width: 100%;
+.info-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
 }
 
-#content {
-    padding-bottom: 10%;
+.info-box-1{
+    width: 50%;
 }
 
-h3 {
-    margin-bottom: 0;
-    font-size: 2vw;
-}
-
-p.o {
-    margin-top: 1%;
-    font-size: 1.3vw;
-}
-
-#portfolio {
+.duo-container, .zeit-container, .rooted-container, .dimsy-container{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-around;
     padding-top: 5%;
 }
 
-.contact {
-    padding-top: 55%;
+.duo-container, .zeit-container, .rooted-container {
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.1);
+}
+
+.box-1 {
+
+}
+
+.duo-container div, .zeit-container div, .rooted-container div, .dimsy-container div {
+    width: 60%;
+    padding-bottom: 5%;
 }

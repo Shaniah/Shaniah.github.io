@@ -1,7 +1,3 @@
-a {
-    text-decoration: none;
-}
-
 .info-container {
     display: flex;
     justify-content: center;
@@ -18,9 +14,9 @@ a {
 
 .duo-container, .zeit-container, .rooted-container, .dimsy-container{
     display: flex;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 5%;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 5%;
 }
 
@@ -29,7 +25,7 @@ a {
 }
 
 .box-1 {
-
+    align-content: center;
 }
 
 .duo-container div, .zeit-container div, .rooted-container div, .dimsy-container div {

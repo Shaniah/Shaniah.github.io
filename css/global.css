@@ -3,150 +3,115 @@ html, body{
     width: auto;
 }
 
-body{
-    margin-top: 2%;
-    margin-left: 17%;
-    margin-right: 17%;
-}
+/*
+    global fonts
+*/
 
-h1, h3, a, ul {
+h1, h2, h3, h4, a, p {
     font-family: 'Montserrat';
-}
-
-h2, p {
-    font-family: Helvetica;
-    font-weight: lighter;
-}
-
-h1, .navspace {
-    font-weight: 500;
-}
-
-h3 {
-    font-weight: 300;
-    font-size: 1.6vw;
 }
 
 h1 {
-    font-size: 2.6vw;
+    font-weight: 400;
+    font-size: 40px;
+    color: #4B4B4B;
 }
 
-h2 {
-    font-size: 2vw;
+h2{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: 35px;
+    color: #4B4B4B;
+}
+
+h4{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+h5{
+    font-weight: lighter;
+    font-size: 30px;
+    color: #808080;
 }
 
 p {
-    font-size: 1.4vw;
-}
-
-ul {
-    font-size: 1.3vw;
-}
-
-img.logo {
-    width: 6%;
-    height: 6%;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 25;
+    color: #4B4B4B;
 }
 
 a {
-    font-size: 1.5vw;
-    text-decoration: none;
-}
-
-.navspace {
-    display: flex;
-    width: auto;
-    height: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.navspace a {
-    color: #867CF9;
-    font-size: 90%;
-}
-
-#projects {
-    margin-left: 30%;
-}
-
-#about {
-    margin-right: 30%;
+    color: #FFFFFF;
 }
 
 .o {
-    color:#FFAD93;
+    color: #FF8C68;
 }
 
 .p {
-    color:#867CF9;
+    color: #867CF9;
 }
 
-.line {
-    width: 99%;
+.w {
+    color: #FFFFFF;
 }
 
-.i {
-    font-style: italic;
-    font-weight: 350;
-    color: #808080;
+/*
+    global navigation
+*/
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    align-items: center;
+}
+.nav-container div {
+    padding:1%;
 }
 
-.g {
-    color: #808080;
+.logo {
+    width: 70%;
+    padding: 10%;
 }
 
-.return {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
+
+/*
+    global footer
+*/
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.button {
-    background-color: black;
-    cursor:pointer;
-    border: none;
-    width: 10vw;
-    height: 7vh;
-    border-radius: 40px 0px 40px 40px;
-    color: white;
-    font-family: 'Montserrat';
-    font-size: 1.2vw;
-}
-
-.button:hover {
-    background-color: #867CF9;
-}
-
-.left {
-    width: 50%;
-    height: auto;
-    float: left;
-}
-
-.right {
-    width: 40%;
-    height: auto;
-    float: right;
-}
-
-.arrow {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 4%;
-}
-
-.contact {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.footer-container div{
     width: 50%;
     text-align: center;
+}
+
+
+/*
+    global buttons
+*/
+
+button {
+    width: 400px;
+    color: #FFFFFF;
+    background-color: #867CF9;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    height: 45px;
+    border-radius: 30px;
 }

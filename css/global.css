@@ -47,7 +47,7 @@ li {
 
 h4{
     font-weight: 500;
-    font-size: 3.5vw;
+    font-size: 3.1vw;
 }
 
 h5{
@@ -142,7 +142,7 @@ button {
     font-size: 1.7vw;
     text-decoration: none;
     border: none;
-    border-radius: 30px;
+    border-radius: 5vw;
     transition: 0.3s;
 }
 

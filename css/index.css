@@ -32,10 +32,13 @@
 }
 
 .duo-container div, .zeit-container div, .rooted-container div, .dimsy-container div {
-    width: 60%;
-    padding-bottom: 7%;
+    width: 50%;
+    padding-bottom: 6%;
 }
 
+.box-2 {
+    padding-right: 5%;
+}
 
 .duo-container, .zeit-container, .rooted-container {
     padding-left: 10%;

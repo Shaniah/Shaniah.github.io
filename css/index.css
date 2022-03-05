@@ -14,7 +14,6 @@
 
 .duo-container, .zeit-container, .rooted-container, .dimsy-container{
     display: flex;
-    padding-left: 10%;
     padding-right: 5%;
     justify-content: center;
     padding-top: 5%;
@@ -31,4 +30,17 @@
 .duo-container div, .zeit-container div, .rooted-container div, .dimsy-container div {
     width: 60%;
     padding-bottom: 5%;
+}
+
+
+.duo-container, .zeit-container, .rooted-container {
+    padding-left: 10%;
+}
+
+.dimsy-container{
+    padding-left: 5%;
+}
+
+.dimsy-container .box-1 {
+    padding-right: 5%;
 }

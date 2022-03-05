@@ -48,3 +48,48 @@
 .dimsy-container .box-1 {
     padding-right: 5%;
 }
+
+.arrow {
+    width: 3vw;
+    height: auto;
+}
+
+.duo-logo {
+    width: 75%;
+    height: auto;
+}
+
+.zeit-logo {
+    width: 35%;
+    height: auto;
+}
+
+.rooted-logo {
+    width: 55%;
+    height: auto;
+}
+
+.dimsy-logo {
+    width: 50%;
+    height: auto;
+}
+
+.duo {
+    width: 70%;
+    height: auto;
+}
+
+.zeit {
+    width: 70%;
+    height: auto;
+}
+
+.rooted {
+    width: 75%;
+    height: auto;
+}
+
+.dimsy {
+    width: 100%;
+    height: auto;
+}

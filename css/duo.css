@@ -23,7 +23,7 @@
     padding-left: 10%;
 }
 
-.intro-container, .prob-container, .const-container, .res-container, .key-container, .aud-container, .wire-container, .design-container {
+.intro-container, .prob-container, .const-container, .res-container, .key-container, .aud-container, .wire-container, .design-container, .first-container, .user-container, .sum-container {
     display: flex;
     justify-content: space-around;
     padding-top: 3%;
@@ -39,7 +39,7 @@
     padding-left: 8%;
 }
 
-.const-container, .key-container {
+.const-container, .key-container, .sum-container {
     color: #FFFFFF;
     background-color: #867CF9;
 }
@@ -48,4 +48,16 @@
     list-style-image: url('../images/check.svg');
     padding-left: 1%;
     padding-bottom: 3%;
+}
+
+.sessions-container, .safety-container, .add-container, .feat-container, .struct-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.sub-box-2 {
+    padding-top: 2%;
+    width: 40%
 }

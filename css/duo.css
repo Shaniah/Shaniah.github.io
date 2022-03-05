@@ -46,7 +46,7 @@
     padding-bottom: 3%;
 }
 
-.sessions-container, .safety-container, .add-container, .feat-container, .struct-container {
+.sessions-container, .safety-container, .add-container, .feat-container, .struct-container, .comp-container, .survey-container, .interview-container {
     display: flex;
     justify-content: space-around;
     padding-top: 3%;
@@ -58,7 +58,7 @@
     padding-right: 10%;
 }
 
-.duo-persona, .duo-design {
+.duo-persona, .duo-design, .duo-wireframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -103,4 +103,29 @@
 .duo-sessions, .duo-safety, .duo-add, .duo-feat, .duo-struct {
     width: 90%;
     padding-left: 15%;
+}
+
+.duo-comp {
+    width: 80%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.duo-survey {
+    width: 80%;
+    padding-bottom: 5%;
+}
+
+.survey-box-1 {
+    width: 57%;
+}
+
+.duo-interview {
+    width: 50%;
+    padding-left: 20%;
+}
+
+.interview-box-1{
+    width: 57%;
+    padding-bottom: 5%;
 }

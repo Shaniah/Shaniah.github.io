@@ -17,7 +17,7 @@ a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, a, p {
+h1, h2, h3, h4, h5, h6, a, p, li {
     font-family: 'Montserrat';
 }
 
@@ -38,6 +38,13 @@ h3 {
     color: #4B4B4B;
 }
 
+li {
+   font-weight: lighter;
+    font-size: 35px;
+    color: #FFFFFF; 
+    font-weight: 400;
+}
+
 h4{
     font-weight: 500;
     font-size: 50px;
@@ -47,6 +54,12 @@ h5{
     font-weight: lighter;
     font-size: 30px;
     color: #ACACAC;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 1.5px;
 }
 
 p {
@@ -124,4 +137,13 @@ button {
     border: none;
     height: 45px;
     border-radius: 30px;
+    transition: 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #867CF9;
+    border-color: #867CF9;
+    border-style: solid;
 }

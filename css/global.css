@@ -154,3 +154,8 @@ button:hover {
     border-style: solid;
     border-width: thin;
 }
+
+.wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+}

@@ -1,3 +1,10 @@
+
+@media screen and (min-width: 640px){
+.duo-container, .zeit-container, .rooted-container, .dimsy-container{
+    display: flex;
+}
+}
+
 .info-container {
     display: flex;
     justify-content: center;
@@ -17,7 +24,6 @@
 }
 
 .duo-container, .zeit-container, .rooted-container, .dimsy-container{
-    display: flex;
     padding-right: 5%;
     justify-content: center;
     padding-top: 5%;

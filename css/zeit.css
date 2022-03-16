@@ -43,7 +43,7 @@
     padding-bottom: 3%;
 }
 
-.sessions-container, .safety-container, .add-container, .feat-container, .struct-container, .comp-container, .survey-container, .interview-container {
+.sessions-container, .safety-container, .add-container, .feat-container, .struct-container, .comp-container, .card-container, .interview-container {
     display: flex;
     justify-content: space-around;
     padding-top: 3%;
@@ -55,11 +55,18 @@
     padding-right: 10%;
 }
 
-.zeit-persona, .zeit-design, .zeit-wireframe, .zeit-brand {
+.zeit-persona, .zeit-wireframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+.zeit-design, .zeit-brand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .proto-container {

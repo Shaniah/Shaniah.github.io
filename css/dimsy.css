@@ -11,11 +11,12 @@
 
 .title-box-1 {
     align-content: center;
+    padding-right: 8%;
 }
 
 .title-container div {
     width: 40%;
-    padding-bottom: 7%;
+    padding-bottom: 2%;
 }
 
 .intro-container, .prob-container, .const-container, .res-container, .key-container, .aud-container, .wire-container, .brand-container, .design-container, .first-container, .user-container, .sum-container {
@@ -91,7 +92,7 @@
 }
 
 .dimsy-2 {
-    width: 35vw;
+    width: 40vw;
 }
 
 .dimsy-logo {

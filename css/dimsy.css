@@ -1,0 +1,103 @@
+.title-container {
+    display: flex;
+    padding-right: 8%;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.title-container {
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.1);
+}
+
+.title-box-1 {
+    align-content: center;
+}
+
+.title-container div {
+    width: 40%;
+    padding-bottom: 7%;
+}
+
+.intro-container, .prob-container, .const-container, .res-container, .key-container, .aud-container, .wire-container, .brand-container, .design-container, .first-container, .user-container, .sum-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.box-2 {
+    padding-top: 2%;
+    width: 50%;
+    padding-right: 5%;
+}
+
+.const-container, .key-container, .sum-container {
+    color: #FFFFFF;
+    background-color: #867CF9;
+}
+
+.check {
+    list-style-image: url('../images/check.svg');
+    padding-left: 1%;
+    padding-bottom: 3%;
+}
+
+.sessions-container, .safety-container, .add-container, .feat-container, .struct-container, .comp-container, .survey-container, .interview-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.sub-box-2 {
+    padding-top: 2%;
+    width: 40%;
+    padding-right: 10%;
+}
+
+.dimsy-persona, .dimsy-design, .dimsy-wireframe, .dimsy-brand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.proto-container {
+    background-color: #4B4B4B;
+}
+
+.proto-box-1 {
+    display: flex;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.proto-box-1 button {
+    margin-top: 7%;
+    margin-bottom: 0px;
+}
+
+.dimsy-proto {
+    width: 100%;
+}
+
+.dimsy-survey, .dimsy-interview, .dimsy-comp {
+    width: 30vw;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.dimsy-2 {
+    width: 35vw;
+}
+
+.dimsy-logo {
+    width: 100%;
+}
+
+.dimsy-ipad, .dimsy-book {
+    width: 90%;
+}

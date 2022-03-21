@@ -13,7 +13,7 @@ body{
     global fonts
 */
 
-a {
+.nav-box a {
     text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ p {
     color: #4B4B4B;
 }
 
-a {
+.nav-box a {
     color: #FFFFFF;
 }
 

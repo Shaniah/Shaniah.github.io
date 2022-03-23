@@ -123,3 +123,9 @@
   from, to { border-color: transparent }
   50% { border-color: #FF8C68; }
 }
+
+/* arrow smooth scroll */
+
+html {
+  scroll-behavior: smooth;
+ }

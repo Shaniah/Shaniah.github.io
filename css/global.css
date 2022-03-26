@@ -21,7 +21,7 @@ body{
     color: #FF8C68;
 }
 
-h1, h2, h3, h4, h5, h6, a, p, li, h7 {
+h1, h2, h3, h4, h5, h6, a, p, li, h7, h8 {
     font-family: 'Montserrat';
 }
 
@@ -70,6 +70,11 @@ h7 {
     color: #FFFFFF;
     font-weight: lighter;
     font-size: 4vw;
+}
+
+h8 {
+    color: #4B4B4B;
+    font-size: 1.2vw;
 }
 
 p {

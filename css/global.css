@@ -177,3 +177,10 @@ button:hover {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.social {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    width: 5vw;
+}

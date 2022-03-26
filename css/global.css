@@ -145,6 +145,26 @@ h3 a:hover {
     text-align: center;
 }
 
+.foot-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: #000000;
+    color: #FF8C68;
+}
+
+.foot-nav a:visited{
+    color: #FF8C68;
+}
+
+.social {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 5vw;
+}
+
 
 /*
     global buttons
@@ -176,11 +196,4 @@ button:hover {
 .wrapper {
     margin-left: 10%;
     margin-right: 10%;
-}
-
-.social {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    width: 5vw;
 }

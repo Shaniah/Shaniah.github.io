@@ -149,12 +149,13 @@ h3 a:hover {
     display: flex;
     justify-content: space-between;
     padding: 5%;
+    padding-bottom: 0%;
     background-color: #000000;
-    color: #FF8C68;
+    color: #867CF9;
 }
 
 .foot-nav a:visited{
-    color: #FF8C68;
+    color: #867CF9;
 }
 
 .social {

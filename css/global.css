@@ -159,7 +159,15 @@ h3 a:hover {
     color: #867CF9;
 }
 
-.foot-nav a:visited{
+.foot-nav a:visited {
+    color: #867CF9;
+}
+
+.foot-nav a:link {
+    color: #867CF9;
+}
+
+.foot-nav a:active {
     color: #867CF9;
 }
 

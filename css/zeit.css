@@ -19,11 +19,17 @@
     padding-bottom: 7%;
 }
 
-.intro-container, .prob-container, .const-container, .res-container, .key-container, .aud-container, .wire-container, .brand-container, .design-container, .first-container, .user-container, .sum-container, .user-container, .home-container, .browse-container, .book-container {
+.intro-container, .prob-container, .const-container, .key-container, .aud-container, .wire-container, .brand-container, .design-container, .first-container, .user-container, .sum-container, .user-container, .home-container, .browse-container, .book-container {
     display: flex;
     justify-content: space-around;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+.res-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
 }
 
 .box-2 {
@@ -123,4 +129,46 @@
 
 .zeit-home, .zeit-browse, .zeit-book {
     width: 100%;
+}
+
+.card-container {
+    padding-bottom: 5%;
+}
+
+@media (max-width: 800px) {
+    .title-container, .intro-container, .prob-container, .const-container, .res-container, .key-container, .aud-container, .wire-container, .brand-container, .design-container, .first-container, .user-container, .sum-container {
+        flex-direction: column;
+        padding: 5vw;
+    }
+    
+    .title-container {
+        flex-direction: column-reverse;
+    }
+    
+    .box-2 {
+        width: 100%;
+    }
+    
+    .title-container div {
+        width: 100%;
+        padding-bottom: 7%;
+    }
+    
+    .zeit-2 {
+        width: 70vw;
+        padding-left: 10%;
+    }
+    
+    .zeit-clock, .zeit-lips {
+        width: 30vw;
+    }
+    
+    .zeit-interview, .zeit-comp, .zeit-card {
+        width: 40vw;
+        padding-top: 40%;
+    }
+    
+    .zeit-wireframe, .zeit-brand, .zeit-design {
+        width: 90%;
+    }
 }

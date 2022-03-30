@@ -159,6 +159,13 @@ h3 a:hover {
     .social {
         width: 9vw;
     }
+    
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative
+    }
 }
 
 @media (min-width: 801px) {    

@@ -22,7 +22,7 @@
     padding-bottom: 7%;
 }
 
-.intro-container, .prob-container, .const-container, .key-container, .aud-container, .wire-container, .design-container, .first-container, .user-container, .sum-container {
+.intro-container, .prob-container, .const-container, .key-container, .aud-container, .wire-container, .brand-container, .design-container, .first-container, .user-container, .sum-container {
     display: flex;
     justify-content: space-around;
     padding-top: 3%;
@@ -76,6 +76,13 @@
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+}
+
+.root-brand-1, .root-brand-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 
@@ -168,7 +175,7 @@
         padding-top: 20%;
     }
     
-    .root-wireframe, .root-design {
+    .root-wireframe, .root-brand-1, .root-brand-2, .root-design {
         width: 90%;
     }
     

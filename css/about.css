@@ -65,3 +65,14 @@ b{
 .future-container {
     padding-bottom: 10%;
 }
+
+@media (max-width: 800px) {
+    .me {
+        width: 40vw;
+    }
+    
+    .coffee, .pumpkin, .bunny {
+        width: 19vw;
+        padding-left: 0px;
+    }
+}

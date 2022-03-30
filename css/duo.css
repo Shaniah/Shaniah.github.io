@@ -13,23 +13,19 @@
     align-content: center;
 }
 
-.title-container div {
-    width: 40%;
-    padding-bottom: 7%;
-}
-
-.intro-container, .prob-container, .const-container, .res-container, .key-container, .aud-container, .wire-container, .design-container, .first-container, .user-container, .sum-container {
+.intro-container, .prob-container, .const-container, .key-container, .aud-container, .wire-container, .design-container, .first-container, .user-container, .sum-container {
     display: flex;
     justify-content: space-around;
     padding-top: 3%;
     padding-bottom: 3%;
 }
 
-.box-2 {
-    padding-top: 2%;
-    width: 50%;
-    padding-right: 5%;
+.res-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
 }
+
 
 .intro-box-1 img {
     padding-left: 8%;
@@ -50,6 +46,17 @@
     display: flex;
     justify-content: space-around;
     padding-top: 3%;
+}
+
+ .box-2 {
+    padding-top: 2%;
+    width: 50%;
+    padding-right: 5%;
+}
+    
+.title-container div {
+    width: 40%;
+    padding-bottom: 7%;
 }
 
 .sub-box-2 {
@@ -92,14 +99,6 @@
     width: 100%;
 }
 
-.duo-whistle {
-    width: 75%;
-}
-
-.duo-cry {
-    width: 100%;
-}
-
 .duo-sessions, .duo-safety, .duo-add, .duo-feat, .duo-struct {
     width: 25vw;
     padding-left: 15%;
@@ -113,4 +112,67 @@
 
 .duo-logo {
     width: 100%
+}
+
+.duo-whistle {
+    width: 15vw;
+}
+
+.duo-cry {
+    width: 20vw;
+}
+
+.struct-container {
+    padding-bottom: 10%;
+}
+
+.interview-container {
+    padding-bottom: 5%;
+}
+
+@media (max-width: 800px) {
+    .title-container, .intro-container, .prob-container, .const-container, .res-container, .key-container, .aud-container, .wire-container, .design-container, .first-container, .user-container, .sum-container {
+        flex-direction: column;
+        padding: 5vw;
+    }
+    
+    .title-container {
+        flex-direction: column-reverse;
+    }
+    
+    .box-2 {
+        width: 100%;
+    }
+    
+    .title-container div {
+        width: 100%;
+        padding-bottom: 7%;
+    }
+    
+    .duo-whistle {
+        width: 30vw;
+    }
+    
+    .duo-2 {
+        width: 60vw;
+        padding-left: 20%;
+    }
+    
+
+    .duo-cry {
+        width: 40vw;
+    }
+    
+    .duo-comp, .duo-survey, .duo-interview {
+        width: 40vw;
+        padding-top: 20%;
+    }
+    
+    .duo-wireframe, .duo-design {
+        width: 90%;
+    }
+    
+    .duo-sessions, .duo-safety, .duo-add, .duo-feat, .duo-struct {
+        width: 40vw;
+    }
 }

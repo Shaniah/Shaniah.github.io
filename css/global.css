@@ -1,10 +1,11 @@
 html, body{
     height: 100%;
     width: auto;
+    
 }
 
 body{ 
-    padding: 0;
+    padding: 0; 
     margin: 0;
 }
 
@@ -277,10 +278,4 @@ button:hover {
 .wrapper {
     margin-left: 10%;
     margin-right: 10%;
-}
-
-@media (min-width: 1600px) {
-    #container, #Duo {
-        padding: 0 7vw 0 7vw;
-    }   
 }

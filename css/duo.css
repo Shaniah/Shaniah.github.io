@@ -182,11 +182,11 @@
 @media (min-width: 1600px) { 
     
     .duo-whistle {
-        width: 20vw;
+        width: 8vw;
     }
     
     .duo-cry {
-        width: 30vw;
+        width: 10vw;
     }
     
     .duo-comp, .duo-survey, .duo-interview {
@@ -194,10 +194,10 @@
     }
     
     .duo-persona, .duo-wireframe, .duo-design {
-        width: 80%;
+        width: 50%;
     }
     
     .duo-sessions, .duo-safety, .duo-add, .duo-feat, .duo-struct {
-        width: 30vw;
+        width: 20vw;
     }
 }

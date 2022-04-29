@@ -178,3 +178,26 @@
         width: 40vw;
     }
 }
+
+@media (min-width: 1600px) { 
+    
+    .duo-whistle {
+        width: 20vw;
+    }
+    
+    .duo-cry {
+        width: 30vw;
+    }
+    
+    .duo-comp, .duo-survey, .duo-interview {
+        width: 20vw;
+    }
+    
+    .duo-persona, .duo-wireframe, .duo-design {
+        width: 80%;
+    }
+    
+    .duo-sessions, .duo-safety, .duo-add, .duo-feat, .duo-struct {
+        width: 30vw;
+    }
+}

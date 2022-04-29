@@ -279,3 +279,42 @@ button:hover {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+/*
+    larger screens
+*/
+
+@media (min-width: 1600px) {    
+    h1, h5, h6 {
+        font-size: 28px;
+    }
+    
+    h2 {
+        font-size: 16px;
+    }
+    
+    h3, li {
+        font-size: 24px;
+    }
+    
+    h4 {
+        font-size: 40px;
+    }
+    
+    h7 {
+        font-size: 50px;
+    }
+    
+    h8 {
+        font-size: 15px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    #Container, #Duo {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

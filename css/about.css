@@ -76,3 +76,14 @@ b{
         padding-left: 0px;
     }
 }
+
+@media (min-width: 1600px) { 
+    
+    .me {
+        width: 20vw;
+    }
+    
+    .coffee, .pumpkin, .bunny {
+        width: 10vw;
+    }
+}

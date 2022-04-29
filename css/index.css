@@ -98,7 +98,7 @@
 }
 
 .dimsy {
-    width: 100%;
+    width: 95%;
     height: auto;
 }
 
@@ -146,5 +146,11 @@ html {
     @keyframes blink-caret {
         from, to { border-color: transparent }
         50% { border-color: #FF8C68; }
+    }
+}
+
+@media (min-width: 1600px) {
+    .info-box-1{
+        width: 50%;
     }
 }

@@ -80,10 +80,10 @@ b{
 @media (min-width: 1600px) { 
     
     .me {
-        width: 20vw;
+        width: 18vw;
     }
     
     .coffee, .pumpkin, .bunny {
-        width: 10vw;
+        width: 7vw;
     }
 }

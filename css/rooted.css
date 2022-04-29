@@ -131,6 +131,8 @@
 
 .root-proto {
     width: 100%;
+    background-color: #4B4B4B;
+    display: block;
 }
 
 .root-add {

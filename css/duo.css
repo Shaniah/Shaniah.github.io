@@ -97,6 +97,8 @@
 
 .duo-proto {
     width: 100%;
+    background-color: #4B4B4B;
+    display: block;
 }
 
 .duo-sessions, .duo-safety, .duo-add, .duo-feat, .duo-struct {

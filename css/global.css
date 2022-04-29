@@ -328,4 +328,8 @@ button:hover {
         padding-left: 20%;
         padding-right: 20%;
     }
+    
+    .social {
+        width: 3vw;
+    }
 }

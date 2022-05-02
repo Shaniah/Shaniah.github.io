@@ -174,3 +174,26 @@
         width: 90%;
     }
 }
+
+@media (min-width: 1600px) { 
+    
+    .zeit-2 {
+        width: 70%;
+    }
+    
+    .zeit-time {
+        width: 8vw;
+    }
+    
+    .zeit-lips {
+        width: 10vw;
+    }
+    
+    .zeit-interview, .zeit-comp, .zeit-card {
+        width: 20vw;
+    }
+    
+    .zeit-persona, .zeit-wireframe, .zeit-brand, .zeit-design {
+        width: 45%;
+    }
+}

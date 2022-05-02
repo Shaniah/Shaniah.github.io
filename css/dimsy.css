@@ -169,3 +169,26 @@
         width: 90%;
     }
 }
+
+@media (min-width: 1600px) { 
+    
+    .dimsy-2 {
+        width: 70%;
+    }
+    
+    .dimsy-book {
+        width: 8vw;
+    }
+    
+    .dimsy-ipad {
+        width: 10vw;
+    }
+    
+    .dimsy-survey, .dimsy-comp, .dimsy-interview {
+        width: 20vw;
+    }
+    
+    .dimsy-persona, .dimsy-wireframe, .dimsy-brand, .dimsy-design {
+        width: 45%;
+    }
+}

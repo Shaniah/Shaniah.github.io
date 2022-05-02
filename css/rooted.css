@@ -188,20 +188,24 @@
 
 @media (min-width: 1600px) { 
     
-    .root-2 {
+    .rooted-2 {
         width: 70%;
     }
     
     .root-happy, .root-sad {
-        width: 8vw;
+        width: 5vw;
     }
     
     .root-diary, .root-comp, .root-interview {
         width: 20vw;
     }
     
-    .root-persona, .root-wireframe, .root-brand, .root-design {
+    .root-persona, .root-wireframe, .root-design {
         width: 45%;
+    }
+    
+    .root-brand {
+        width: 38%;
     }
     
     .root-options, .root-time, .root-simp, .root-rem, .root-on, .root-word, .root-add {

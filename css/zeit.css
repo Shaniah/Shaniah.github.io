@@ -178,22 +178,22 @@
 @media (min-width: 1600px) { 
     
     .zeit-2 {
-        width: 70%;
+        width: 80%;
     }
     
-    .zeit-time {
-        width: 8vw;
+    .zeit-clock, .zeit-lips {
+        width: 9vw;
     }
-    
-    .zeit-lips {
-        width: 10vw;
-    }
-    
+
     .zeit-interview, .zeit-comp, .zeit-card {
         width: 20vw;
     }
     
-    .zeit-persona, .zeit-wireframe, .zeit-brand, .zeit-design {
+    .zeit-persona, .zeit-wireframe {
         width: 45%;
+    }
+    
+    .zeit-brand, .zeit-design {
+        width: 38%;
     }
 }

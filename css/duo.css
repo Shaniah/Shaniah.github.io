@@ -86,13 +86,11 @@
 .proto-container {
     display: flex;
     background-color: #4B4B4B;
-    flex-direction: column;
 }
 
 .proto-box-1 {
-    display: flex;
     width: 50%;
-    display: block;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     text-align: center;

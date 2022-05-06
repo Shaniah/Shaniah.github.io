@@ -27,58 +27,64 @@ h1, h2, h3, h4, h5, h6, a, p, li, h7, h8 {
 
 h1 {
     font-weight: 400;
-    font-size: 2.2vw;
+    font-size: 1.2rem;
     color: #4B4B4B;
 }
 
 h2{
     font-weight: 600;
-    font-size: 1.3vw;
+    font-size: 1.2rem;
 }
 
 h3 {
     font-weight: lighter;
-    font-size: 1.8vw;
+    font-size: 1rem;
     color: #4B4B4B;
 }
 
-li {
-   font-weight: lighter;
-    font-size: 1.8vw;
+li.check {
+    font-size: 1rem;
     color: #FFFFFF; 
     font-weight: 400;
 }
 
+li.about {
+    font-weight: lighter;
+    font-size: 1rem;
+    color: #4B4B4B; 
+    padding-bottom: 1.5%;
+}
+
 h4{
     font-weight: 500;
-    font-size: 3.1vw;
+    font-size: 2rem;
 }
 
 h5{
     font-weight: lighter;
-    font-size: 2.3vw;
+    font-size: 1.5rem;
     color: #ACACAC;
 }
 
 h6 {
     font-weight: 600;
-    font-size: 2.2vw;
+    font-size: 1.5rem;
     letter-spacing: 1.5px;
 }
 
 h7 {
     color: #FFFFFF;
     font-weight: lighter;
-    font-size: 4vw;
+    font-size: 2rem;
 }
 
 h8 {
     color: #867CF9;
-    font-size: 1.2vw;
+    font-size: 0.8rem;
 }
 
 p {
-    font-size: 1.5vw;
+    font-size: 1rem;
     color: #4B4B4B;
 }
 
@@ -106,78 +112,6 @@ h3 a {
 h3 a:hover {
     color: #867CF9;
     text-decoration: underline;
-}
-
-@media (max-width: 800px) {
-    
-    h6 {
-        font-size: 18px;
-    }
-    
-    h3 {
-        font-size: 18px;
-    }
-    
-    li {
-        font-size: 18px;
-    }
-    
-    h8 {
-        font-size: 12px;
-    }
-    
-    h2 {
-        font-size: 20px;
-    }
-    
-    h7 {
-        font-size: 35px;
-    }
-    
-    h1 {
-        font-size: 16px;
-    }
-    
-    h4 {
-        font-size: 25px;
-    }
-    
-    h5 {
-        font-size: 18px;
-    }
-    
-    p {
-        font-size: 12px;
-    }
-    
-    button {
-        width: 100%;
-        height: 6vw;
-        font-size: 15px;
-    }
-    
-    .social {
-        width: 9vw;
-    }
-    
-    html, body {
-        overflow-x: hidden;
-    }
-    body {
-        position: relative
-    }
-}
-
-@media (min-width: 801px) {    
-    button {
-        width: 100%;
-        height: 50px;
-        font-size: 1.7vw;
-    }
-    
-    .social {
-        width: 5vw;
-    }
 }
 
 /*
@@ -250,8 +184,8 @@ h3 a:hover {
 }
 
 .social {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-top: 3%;
     padding-bottom: 3%;
 }
@@ -291,45 +225,90 @@ button:hover {
 */
 
 @media (min-width: 1600px) { 
-    
+    #Container, #Duo {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
+
+
+@media (min-width: 801px) {    
     button {
-        font-size: 20px;
+        width: 70%;
+        height: 35px;
+        font-size: 1rem;
     }
     
-    h1, h5, h6 {
-        font-size: 30px;
+    .social {
+        width: 3vw;
+    }
+    
+    #Container, #Duo {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+/*
+    mobile screens
+*/
+
+@media (max-width: 800px) {
+    
+    h6 {
+        font-size: 18px;
+    }
+    
+    h3 {
+        font-size: 18px;
+    }
+    
+    li {
+        font-size: 18px;
+    }
+    
+    h8 {
+        font-size: 12px;
     }
     
     h2 {
         font-size: 20px;
     }
     
-    h3, li {
-        font-size: 24px;
+    h7 {
+        font-size: 35px;
+    }
+    
+    h1 {
+        font-size: 16px;
     }
     
     h4 {
-        font-size: 40px;
+        font-size: 25px;
     }
     
-    h7 {
-        font-size: 50px;
-    }
-    
-    h8 {
-        font-size: 15px;
-    }
-    
-    p {
+    h5 {
         font-size: 18px;
     }
     
-    #Container, #Duo {
-        padding-left: 20%;
-        padding-right: 20%;
+    p {
+        font-size: 12px;
+    }
+    
+    button {
+        width: 100%;
+        height: 6vw;
+        font-size: 15px;
     }
     
     .social {
-        width: 3vw;
+        width: 9vw;
+    }
+    
+    html, body {
+        overflow-x: hidden;
+    }
+    body {
+        position: relative
     }
 }

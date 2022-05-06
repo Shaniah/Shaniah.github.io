@@ -188,6 +188,7 @@ h3 a:hover {
     padding-right: 1%;
     padding-top: 3%;
     padding-bottom: 3%;
+    width: 3vw;
 }
 
 
@@ -204,6 +205,9 @@ button {
     border: none;
     border-radius: 5vw;
     transition: 0.3s;
+    width: 70%;
+    height: 35px;
+    font-size: 1rem;
 }
 
 button:hover {
@@ -215,8 +219,9 @@ button:hover {
     border-width: thin;
 }
 
-.social {
-        width: 3vw;
+#Container, #Duo {
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .wrapper {
@@ -228,10 +233,11 @@ button:hover {
     larger screens
 */
 
+
 @media (min-width: 1600px) { 
     #Container, #Duo {
-        padding-left: 30%;
-        padding-right: 30%;
+        padding-left: 20%;
+        padding-right: 20%;
     }
     
     .social {
@@ -244,20 +250,6 @@ button:hover {
     
     h8 {
         font-size: 1rem;
-    }
-}
-
-
-@media (min-width: 801px) {    
-    button {
-        width: 70%;
-        height: 35px;
-        font-size: 1rem;
-    }
-    
-    #Container, #Duo {
-        padding-left: 10%;
-        padding-right: 10%;
     }
 }
 

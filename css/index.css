@@ -15,7 +15,6 @@
 .duo-container, .zeit-container, .rooted-container, .dimsy-container{
     display: flex;
     padding-right: 5%;
-    justify-content: center;
     padding-top: 5%;
 }
 
@@ -31,25 +30,18 @@
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.1);
 }
 
-.box-1 {
-    align-content: center;
+.duo-container div, .rooted-container div, .dimsy-container div {
+    width: 50%;
+    padding-bottom: 5%;
 }
 
-.duo-container div, .zeit-container div, .rooted-container div, .dimsy-container div {
+.zeit-container div {
     width: 50%;
-    padding-bottom: 6%;
+    padding-bottom: 7%;
 }
 
 .box-2 {
     padding-right: 5%;
-}
-
-.duo-container, .zeit-container, .rooted-container {
-    padding-left: 10%;
-}
-
-.dimsy-container{
-    padding-left: 5%;
 }
 
 .dimsy-container .box-1 {
@@ -63,7 +55,7 @@
 }
 
 .duo-logo {
-    width: 72%;
+    width: 60%;
     height: auto;
 }
 
@@ -73,12 +65,12 @@
 }
 
 .rooted-logo {
-    width: 52%;
+    width: 50%;
     height: auto;
 }
 
 .dimsy-logo {
-    width: 90%;
+    width: 50%;
     height: auto;
 }
 
@@ -126,6 +118,9 @@ html {
 }
 
 @media (min-width: 801px) {
+    .duo-container, .zeit-container, .rooted-container, .dimsy-container{
+        align-items: center;
+    }
     .info-box-1 h1 {
         overflow: hidden; /* Ensures the content is not revealed until the animation */
         border-right: .15em solid #FF8C68; /* The typwriter cursor */
@@ -149,11 +144,7 @@ html {
     }
 }
 
-@media (min-width: 1600px) {
-    .info-box-1{
-        width: 48%;
-    }
-    
+@media (min-width: 1600px) {    
     .arrow {
         width: 2vw;
     }

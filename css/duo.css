@@ -49,7 +49,7 @@
 }
 
  .box-2 {
-    padding-top: 2%;
+    padding-top: 4%;
     width: 50%;
     padding-right: 5%;
 }
@@ -65,11 +65,18 @@
     padding-right: 10%;
 }
 
-.duo-persona, .duo-design, .duo-wireframe {
+.duo-persona, .duo-wireframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+.duo-design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .duo-2 {
@@ -107,7 +114,7 @@
 }
 
 .duo-comp, .duo-interview, .duo-survey {
-    width: 30vw;
+    width: 25vw;
     padding-left: 5%;
     padding-bottom: 5%;
 }
@@ -117,11 +124,11 @@
 }
 
 .duo-whistle {
-    width: 15vw;
+    width: 10vw;
 }
 
 .duo-cry {
-    width: 20vw;
+    width: 13vw;
 }
 
 .struct-container {

@@ -84,7 +84,9 @@
 }
 
 .proto-container {
+    display: flex;
     background-color: #4B4B4B;
+    flex-direction: column;
 }
 
 .proto-box-1 {
@@ -189,26 +191,38 @@
 @media (min-width: 1600px) { 
     
     .duo-2 {
-        width: 70%;
+        width: 65%;
+    }
+    
+    .duo-logo {
+        width: 80%;
     }
     
     .duo-whistle {
-        width: 8vw;
+        width: 6vw;
     }
     
     .duo-cry {
-        width: 10vw;
+        width: 8vw;
     }
     
     .duo-comp, .duo-survey, .duo-interview {
-        width: 20vw;
+        width: 18vw;
     }
     
-    .duo-persona, .duo-wireframe, .duo-design {
+    .duo-persona, .duo-wireframe {
         width: 45%;
     }
     
+    .duo-design {
+        width: 35%;
+    }
+    
     .duo-sessions, .duo-safety, .duo-add, .duo-feat, .duo-struct {
-        width: 17vw;
+        width: 15vw;
+    }
+    
+    .box-2 {
+        padding-top: 3%;
     }
 }

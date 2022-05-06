@@ -215,6 +215,10 @@ button:hover {
     border-width: thin;
 }
 
+.social {
+        width: 3vw;
+}
+
 .wrapper {
     margin-left: 10%;
     margin-right: 10%;
@@ -226,8 +230,8 @@ button:hover {
 
 @media (min-width: 1600px) { 
     #Container, #Duo {
-        padding-left: 25%;
-        padding-right: 25%;
+        padding-left: 30%;
+        padding-right: 30%;
     }
     
     .social {
@@ -237,6 +241,10 @@ button:hover {
     h3, li.check, li.about {
         font-size: 1.2rem;
     }
+    
+    h8 {
+        font-size: 1rem;
+    }
 }
 
 
@@ -245,10 +253,6 @@ button:hover {
         width: 70%;
         height: 35px;
         font-size: 1rem;
-    }
-    
-    .social {
-        width: 3vw;
     }
     
     #Container, #Duo {

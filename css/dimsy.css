@@ -16,6 +16,7 @@
 
 .title-container div {
     width: 40%;
+    padding-bottom: 2%;
 }
 
 .intro-container, .prob-container, .const-container, .key-container, .aud-container, .wire-container, .brand-container, .design-container, .first-container, .user-container, .sum-container {
@@ -60,11 +61,18 @@
     padding-right: 10%;
 }
 
-.dimsy-persona, .dimsy-design, .dimsy-wireframe, .dimsy-brand {
+.dimsy-persona, .dimsy-wireframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+}
+
+.dimsy-brand, .dimsy-design {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .proto-container {
@@ -93,21 +101,22 @@
 }
 
 .dimsy-survey, .dimsy-interview, .dimsy-comp {
-    width: 30vw;
+    width: 25vw;
     padding-left: 5%;
     padding-bottom: 5%;
 }
 
 .dimsy-2 {
-    width: 40vw;
+    width: 33vw;
 }
 
 .dimsy-logo {
-    width: 100%;
+    width: 88%;
 }
 
 .dimsy-ipad, .dimsy-book {
-    width: 90%;
+    width: 60%;
+    padding-left: 8%;
 }
 
 
@@ -172,23 +181,27 @@
 
 @media (min-width: 1600px) { 
     
+    .dimsy-logo {
+        width: 70%;
+    }
+    
     .dimsy-2 {
-        width: 100%;
+        width: 88%;
     }
     
     .dimsy-book, .dimsy-ipad {
-        width: 9vw;
+        width: 7vw;
     }
     
     .dimsy-survey, .dimsy-comp, .dimsy-interview {
-        width: 20vw;
+        width: 16vw;
     }
     
-    .dimsy-persona, .dimsy-wireframe, .dimsy-brand, {
+    .dimsy-persona, .dimsy-wireframe {
         width: 45%;
     }
     
-    .dimsy-design {
+    .dimsy-design, .dimsy-brand {
         width: 38%;
     }
     

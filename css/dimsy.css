@@ -32,7 +32,7 @@
 }
 
 .box-2 {
-    padding-top: 2%;
+    padding-top: 4%;
     width: 50%;
     padding-right: 5%;
 }
@@ -190,5 +190,9 @@
     
     .dimsy-design {
         width: 38%;
+    }
+    
+    .box-2 {
+        padding-top: 3%;
     }
 }

@@ -33,7 +33,7 @@
 }
 
 .box-2 {
-    padding-top: 2%;
+    padding-top: 4%;
     width: 50%;
     padding-right: 5%;
 }
@@ -108,21 +108,22 @@
 }
 
 .zeit-card, .zeit-interview, .zeit-comp {
-    width: 30vw;
+    width: 25vw;
     padding-left: 5%;
     padding-bottom: 5%;
 }
 
 .zeit-2 {
-    width: 35vw;
+    width: 28vw;
 }
 
 .zeit-logo {
-    width: 90%;
+    width: 83%;
 }
 
 .zeit-clock, .zeit-lips {
-    width: 50%;
+    width: 40%;
+    padding-left: 30%;
 }
 
 .time-box {
@@ -177,16 +178,20 @@
 
 @media (min-width: 1600px) { 
     
+    .zeit-logo {
+        width: 75%
+    }
+    
     .zeit-2 {
-        width: 80%;
+        width: 70%;
     }
     
     .zeit-clock, .zeit-lips {
-        width: 9vw;
+        width: 6vw;
     }
 
     .zeit-interview, .zeit-comp, .zeit-card {
-        width: 20vw;
+        width: 18vw;
     }
     
     .zeit-persona, .zeit-wireframe {
@@ -194,6 +199,10 @@
     }
     
     .zeit-brand, .zeit-design {
-        width: 38%;
+        width: 30%;
+    }
+    
+    .box-2 {
+        padding-top: 3%;
     }
 }

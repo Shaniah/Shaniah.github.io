@@ -36,7 +36,7 @@
 }
 
 .box-2 {
-    padding-top: 2%;
+    padding-top: 4%;
     width: 50%;
     padding-right: 5%;
 }
@@ -75,14 +75,14 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 60%;
 }
 
 .root-brand-1, .root-brand-2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 48%;
 }
 
 
@@ -106,25 +106,25 @@
 }
 
 .root-options, .root-time, .root-simp, .root-rem, .root-on, .root-word, .root-add {
-    width: 25vw;
+    width: 23vw;
     padding-left: 15%;
 }
 
 .rooted-logo {
-    width: 70%;
+    width: 67%;
 }
 
 .rooted-2 {
-    width: 33vw;
+    width: 28vw;
 }
 
 .root-sad, .root-happy {
-    width: 7vw;
-    padding-left: 25%;
+    width: 5vw;
+    padding-left: 30%;
 }
 
 .root-comp, .root-interview, .root-diary {
-    width: 30vw;
+    width: 25vw;
     padding-left: 5%;
     padding-bottom: 5%;
 }
@@ -188,12 +188,15 @@
 
 @media (min-width: 1600px) { 
     
+    .rooted-logo {
+        width: 60%;
+    }
     .rooted-2 {
-        width: 70%;
+        width: 65%;
     }
     
     .root-happy, .root-sad {
-        width: 5vw;
+        width: 3vw;
     }
     
     .root-diary, .root-comp, .root-interview {
@@ -210,5 +213,9 @@
     
     .root-options, .root-time, .root-simp, .root-rem, .root-on, .root-word, .root-add {
         width: 17vw;
+    }
+    
+    .box-2 {
+        padding-top: 3%;
     }
 }

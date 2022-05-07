@@ -55,14 +55,6 @@
     padding-top: 3%;
 }
 
-.sub-box-2 {
-    width: 40%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .dimsy-persona, .dimsy-wireframe {
     display: block;
     margin-left: auto;
@@ -207,8 +199,12 @@
         width: 45%;
     }
     
-    .dimsy-design, .dimsy-brand {
+    .dimsy-brand {
         width: 38%;
+    }
+    
+    .dimsy-design {
+        width: 30%;
     }
     
     .box-2 {

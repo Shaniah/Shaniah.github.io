@@ -118,6 +118,14 @@
     width: 100%;
 }
 
+.sub-box-2a {
+    width: 40%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .sub-box-2 {
     padding-top: 10%;
     width: 40%;

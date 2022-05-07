@@ -26,10 +26,11 @@
 .box-1 {
     margin-left: 2%;
     align-items: center;
+    width: 50%;
 }
 
 .box-2 {
-    margin-right: 2%;
+    width: 40%;
 }
 
 .duo-container, .zeit-container, .rooted-container {
@@ -37,17 +38,11 @@
 }
 
 .duo-container div, .rooted-container div, .dimsy-container div {
-    width: 50%;
     padding-bottom: 5%;
 }
 
 .zeit-container div {
-    width: 50%;
     padding-bottom: 7%;
-}
-
-.box-2 {
-    padding-right: 5%;
 }
 
 .arrow {

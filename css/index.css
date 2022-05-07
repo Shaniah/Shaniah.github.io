@@ -150,6 +150,9 @@ html {
 }
 
 @media (min-width: 1600px) {    
+    .coffee {
+        width: 4vw;
+    }
     .arrow {
         width: 2vw;
     }

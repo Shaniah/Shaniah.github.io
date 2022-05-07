@@ -59,9 +59,11 @@
 }
 
 .sub-box-2 {
-    padding-top: 2%;
     width: 40%;
     padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .root-persona, .root-design {
@@ -192,7 +194,7 @@
         width: 60%;
     }
     .rooted-2 {
-        width: 65%;
+        width: 68%;
     }
     
     .root-happy, .root-sad {
@@ -200,7 +202,7 @@
     }
     
     .root-diary, .root-comp, .root-interview {
-        width: 16vw;
+        width: 15vw;
     }
     
     .root-persona, .root-wireframe, .root-design {
@@ -217,5 +219,9 @@
     
     .box-2 {
         padding-top: 3%;
+    }
+    
+    .title-box-2 {
+        width: 30%;
     }
 }

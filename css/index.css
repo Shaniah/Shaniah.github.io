@@ -25,8 +25,13 @@
 
 .box-1 {
     margin-left: 2%;
-    align-items: center;
     width: 50%;
+}
+
+.zeit-container .box-1, .duo-container .box-1, .rooted-container .box-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .box-2 {

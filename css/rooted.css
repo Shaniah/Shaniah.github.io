@@ -200,7 +200,7 @@
     }
     
     .root-diary, .root-comp, .root-interview {
-        width: 20vw;
+        width: 16vw;
     }
     
     .root-persona, .root-wireframe, .root-design {
@@ -212,7 +212,7 @@
     }
     
     .root-options, .root-time, .root-simp, .root-rem, .root-on, .root-word, .root-add {
-        width: 17vw;
+        width: 15vw;
     }
     
     .box-2 {

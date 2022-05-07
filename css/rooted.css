@@ -191,10 +191,10 @@
 @media (min-width: 1600px) { 
     
     .rooted-logo {
-        width: 60%;
+        width: 58%;
     }
     .rooted-2 {
-        width: 68%;
+        width: 70%;
     }
     
     .root-happy, .root-sad {
@@ -205,11 +205,15 @@
         width: 15vw;
     }
     
-    .root-persona, .root-wireframe, .root-design {
+    .root-persona, .root-wireframe {
         width: 45%;
     }
     
-    .root-brand {
+    .root-design {
+        width: 40%;
+    }
+    
+    .root-brand-1, .root-brand-2 {
         width: 38%;
     }
     

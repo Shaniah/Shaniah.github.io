@@ -13,7 +13,7 @@
 }
 
 .info-box-1{
-    width: 53%;
+    width: 545px;
     padding-top: 5vh;
 }
 
@@ -25,6 +25,7 @@
 
 .box-1 {
     margin-left: 2%;
+    align-items: center;
 }
 
 .box-2 {
@@ -46,10 +47,6 @@
 }
 
 .box-2 {
-    padding-right: 5%;
-}
-
-.dimsy-container .box-1 {
     padding-right: 5%;
 }
 
@@ -95,7 +92,7 @@
 }
 
 .dimsy {
-    width: 95%;
+    width: 90%;
     height: auto;
 }
 

@@ -90,4 +90,8 @@ b{
     .coffee, .pumpkin, .bunny {
         width: 7vw;
     }
+    
+    .sub-box-2 {
+        padding-top: 3%;
+    }
 }

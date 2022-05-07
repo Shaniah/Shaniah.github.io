@@ -191,8 +191,12 @@
         width: 88%;
     }
     
-    .dimsy-book, .dimsy-ipad {
+    .dimsy-book {
         width: 7vw;
+    }
+    
+    .dimsy-ipad {
+        width: 6vw;
     }
     
     .dimsy-survey, .dimsy-comp, .dimsy-interview {

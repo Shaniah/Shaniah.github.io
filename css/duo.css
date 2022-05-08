@@ -9,8 +9,17 @@
     box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .title-box-1 {
     align-content: center;
+    width: 40%;
+    padding-bottom: 7%;
+}
+
+.title-box-2 {
+    width: 400px;
+    padding-bottom: 7%;
 }
 
 .intro-container, .prob-container, .const-container, .key-container, .aud-container, .wire-container, .design-container, .first-container, .user-container, .sum-container {
@@ -52,11 +61,6 @@
     padding-top: 4%;
     width: 50%;
     padding-right: 5%;
-}
-    
-.title-container div {
-    width: 40%;
-    padding-bottom: 7%;
 }
 
 .sub-box-2 {
@@ -191,10 +195,6 @@
     
     .duo-2 {
         width: 65%;
-    }
-    
-    .duo-logo {
-        width: 80%;
     }
     
     .duo-whistle {

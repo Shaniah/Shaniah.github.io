@@ -117,6 +117,18 @@ html {
         width: 150vw;
         padding: 12%;
     }
+    
+    .arrow {
+        width: 5vw;
+    }
+    
+    .coffee {
+        width: 14vw;
+    }
+    
+    .box-2 {
+        width: 40%;
+    }
 }
 
 @media (min-width: 801px) {

@@ -165,18 +165,27 @@
         padding-bottom: 7%;
     }
     
+    .card-container, .comp-container, .interview-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sub-box-2a {
+        width: 100%;
+    }
+    
+    .zeit-card, .zeit-comp, .zeit-interview {
+        width: 65vw;
+    }
+    
     .zeit-2 {
         width: 70vw;
         padding-left: 10%;
     }
     
     .zeit-clock, .zeit-lips {
-        width: 30vw;
-    }
-    
-    .zeit-interview, .zeit-comp, .zeit-card {
-        width: 40vw;
-        padding-top: 40%;
+        width: 15vw;
+        padding: 0;
     }
     
     .zeit-wireframe, .zeit-brand, .zeit-design {

@@ -162,18 +162,27 @@
         padding-bottom: 7%;
     }
     
+    .survey-container, .comp-container, .interview-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sub-box-2a {
+        width: 100%;
+    }
+    
+    .dimsy-survey, .dimsy-comp, .dimsy-interview {
+        width: 65vw;
+    }
+    
     .dimsy-2 {
         width: 80vw;
         padding-left: 5%;
     }
     
     .dimsy-book, .dimsy-ipad {
-        width: 35vw;
-    }
-    
-    .dimsy-survey, .dimsy-comp, .dimsy-interview {
-        width: 40vw;
-        padding-top: 40%;
+        width: 20vw;
+        padding: 0;
     }
     
     .dimsy-wireframe, .dimsy-brand, .dimsy-design {

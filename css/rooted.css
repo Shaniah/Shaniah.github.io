@@ -164,19 +164,27 @@
         padding-bottom: 7%;
     }
     
+    .diary-container, .comp-container, .interview-container, .options-container, .time-container, .simp-container, .rem-container, .on-container, .word-container, .add-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sub-box-2 {
+        width: 100%;
+    }
+    
+    .root-diary, .root-comp, .root-interview {
+        width: 65vw;
+    }
+    
     .rooted-2 {
         width: 65vw;
         padding-left: 15%;
     }
     
     .root-happy, .root-sad {
-        width: 20vw;
+        width: 10vw;
         padding: 0px;
-    }
-    
-    .root-diary, .root-comp, .root-interview {
-        width: 40vw;
-        padding-top: 20%;
     }
     
     .root-wireframe, .root-brand-1, .root-brand-2, .root-design {

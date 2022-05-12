@@ -172,19 +172,23 @@ h3 a:hover {
     padding: 5%;
     padding-bottom: 0%;
     background-color: #000000;
-    color: #867CF9;
+    color: #FFFFFF;
 }
 
 .foot-nav a:visited {
-    color: #867CF9;
+    color: #FFFFFF;
 }
 
 .foot-nav a:link {
-    color: #867CF9;
+    color: #FFFFFF;
 }
 
 .foot-nav a:active {
-    color: #867CF9;
+    color: #FFFFFF;
+}
+
+.foot-nav a:hover {
+    color: #FF8C68;
 }
 
 .social {
@@ -223,7 +227,7 @@ button:hover {
     border-width: thin;
 }
 
-#Container, #Duo {
+#Container, #Duo, #Footer {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -319,4 +323,16 @@ button:hover {
     body {
         position: relative
     }
+    
+    #Footer {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    
+    .footer-container h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }

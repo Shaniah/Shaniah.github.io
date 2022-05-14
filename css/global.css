@@ -177,18 +177,22 @@ h3 a:hover {
 
 .foot-nav a:visited {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .foot-nav a:link {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .foot-nav a:active {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .foot-nav a:hover {
     color: #FF8C68;
+    text-decoration: none;
 }
 
 .social {
